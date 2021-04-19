@@ -27,6 +27,8 @@ object BasicScala {
     capitalizeAll("aaa", "bbb")
     // end
 
+    // 当参数大于函数可接受的参数个数时，scala 会尝试使用 tryTupleApply 方法把所有参数变成一个元祖，这是最后做的事
+    println(1, 2, 3)
 
   }
 }
